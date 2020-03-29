@@ -12,6 +12,6 @@ class IndexController extends Controller
 
 
 
-        return view('index');
+        return view('/index');
     }
 }

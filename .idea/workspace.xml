@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="699c7dfd-8233-4ced-84bf-b81df48dd0c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/StudentController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/students/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/students/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +138,7 @@
       <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZlfVYuNhdmD9zjGKjEicEBlZPQ" />
@@ -127,12 +151,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/resources/views/students" />
       <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
     </key>
   </component>
@@ -155,7 +182,28 @@
       <workItem from="1585418628592" duration="3610000" />
       <workItem from="1585484842648" duration="7000" />
       <workItem from="1585484879078" duration="7149000" />
-      <workItem from="1585500221908" duration="1837000" />
+      <workItem from="1585500221908" duration="2177000" />
+      <workItem from="1585645849112" duration="1768000" />
+      <workItem from="1585665511958" duration="251000" />
+      <workItem from="1586437517747" duration="802000" />
+      <workItem from="1587216348183" duration="564000" />
+      <workItem from="1587217019322" duration="73000" />
+      <workItem from="1587217170992" duration="6606000" />
+      <workItem from="1587225883878" duration="1044000" />
+      <workItem from="1587347198506" duration="671000" />
+      <workItem from="1587354895141" duration="479000" />
+      <workItem from="1587355452263" duration="6149000" />
+      <workItem from="1587365010559" duration="1000" />
+      <workItem from="1587365246202" duration="880000" />
+      <workItem from="1587369556568" duration="103000" />
+      <workItem from="1587369993230" duration="964000" />
+      <workItem from="1587371418387" duration="495000" />
+      <workItem from="1587371939444" duration="11000" />
+      <workItem from="1587371971946" duration="51000" />
+      <workItem from="1587372076376" duration="744000" />
+      <workItem from="1587372871650" duration="155000" />
+      <workItem from="1587373093408" duration="154000" />
+      <workItem from="1587373323787" duration="3711000" />
     </task>
     <servers />
   </component>
@@ -171,9 +219,17 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="541" y="365" key="NewPhpFileDialog/0.23.1440.816@0.23.1440.816" timestamp="1585469467408" />
+    <state x="376" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1587373323463">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="376" y="265" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1587373323463" />
     <state x="383" y="195" width="673" height="472" key="find.popup" timestamp="1585486528340">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="383" y="195" width="673" height="472" key="find.popup/0.23.1440.816@0.23.1440.816" timestamp="1585486528340" />
+    <state x="385" y="195" width="670" height="675" key="run.anything.popup" timestamp="1587224016013">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="385" y="195" width="670" height="675" key="run.anything.popup/0.23.1440.816@0.23.1440.816" timestamp="1587224016013" />
   </component>
 </project>

@@ -17,4 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('index', 'IndexController@index');
+Route::get('students', 'StudentsController@index');
+Route::get('students/create', [
+    'as' => 'students.create',
+    'uses' => 'StudentsController@create'
+]);
+Route::post('/students/savestudent', [
+    'as' => 'students.savestudent',
+    'uses' => 'StudentsController@savestudent'
+]);

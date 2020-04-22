@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('students.title')</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/jquery-ui.min.css" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
     @yield('student.css')
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    @yield('students.js')
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -33,8 +38,6 @@
     </div>
 </nav>
 @yield('students.content')
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-@yield('students.js')
+
 </body>
 </html>

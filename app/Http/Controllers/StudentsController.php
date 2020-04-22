@@ -15,10 +15,24 @@ class StudentsController extends Controller
         return view('students.index', compact('students'));
     }
 
-    public function savestudent()
+    public function savestudent(Request $request)
     {
-        $msg = "This is a simple message.";
-        return response()->json(array('msg'=> $msg), 200);
+        $response = array(
+            'status' => 'success',
+            'msg' => $request->message,
+        );
+        return response()->json($response);
+    }
+
+    public function showOverlayAddStudent(Request $request)
+    {
+        $response = array(
+            'status' => 'success',
+            'html' => view('students.overlayaddstudent')->render(),
+            'overlayId' => 'addStudent',
+            'title' => 'addStudent',
+        );
+        return response()->json($response);
     }
 
 }

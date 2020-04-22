@@ -17,12 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('students', 'StudentsController@index');
-Route::get('students/create', [
+Route::get('/students', 'StudentsController@index');
+Route::get('/students/create', [
     'as' => 'students.create',
     'uses' => 'StudentsController@create'
 ]);
-Route::post('/students/savestudent', [
-    'as' => 'students.savestudent',
-    'uses' => 'StudentsController@savestudent'
-]);
+
+Route::post('/students/savestudent', 'StudentsController@savestudent');
+Route::get('/students/showoverlayaddstudent', 'StudentsController@showOverlayAddStudent');

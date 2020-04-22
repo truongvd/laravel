@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="699c7dfd-8233-4ced-84bf-b81df48dd0c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/students/overlayaddstudent.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/StudentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/StudentController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/students/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/students/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,15 +137,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/resources/views/students" />
       <recent name="$PROJECT_DIR$/resources/views" />
-      <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
     </key>
   </component>
@@ -180,7 +189,22 @@
       <workItem from="1587372076376" duration="744000" />
       <workItem from="1587372871650" duration="155000" />
       <workItem from="1587373093408" duration="154000" />
-      <workItem from="1587373323787" duration="3950000" />
+      <workItem from="1587373323787" duration="4103000" />
+      <workItem from="1587378221492" duration="2037000" />
+      <workItem from="1587528179815" duration="1221000" />
+      <workItem from="1587531060140" duration="438000" />
+      <workItem from="1587543421316" duration="1807000" />
+      <workItem from="1587545353061" duration="114000" />
+      <workItem from="1587545556348" duration="54000" />
+      <workItem from="1587545671025" duration="1046000" />
+      <workItem from="1587546753721" duration="505000" />
+      <workItem from="1587547320355" duration="103000" />
+      <workItem from="1587547515638" duration="1338000" />
+      <workItem from="1587549776506" duration="8000" />
+      <workItem from="1587549846249" duration="25000" />
+      <workItem from="1587549898396" duration="7000" />
+      <workItem from="1587549917841" duration="1283000" />
+      <workItem from="1587551410194" duration="232000" />
     </task>
     <servers />
   </component>
@@ -196,10 +220,11 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="541" y="365" key="NewPhpFileDialog/0.23.1440.816@0.23.1440.816" timestamp="1585469467408" />
-    <state x="376" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1587373323463">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="376" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1587549845928">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="376" y="265" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1587373323463" />
+    <state x="376" y="265" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1587378220836" />
+    <state x="376" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1587549845928" />
     <state x="383" y="195" width="673" height="472" key="find.popup" timestamp="1585486528340">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
